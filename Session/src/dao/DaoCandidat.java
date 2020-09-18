@@ -1,5 +1,9 @@
 package dao;
 
-public abstract interface DaoCandidat {
+import java.sql.SQLException;
 
+public abstract interface DaoCandidat {
+void creer_candidat();
+void sup_candidat();
+void aff() throws SQLException;
 }
